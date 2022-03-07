@@ -23,23 +23,21 @@ body {
   font-family: sans-serif;
 }
 
-.bg {
+p {
+  line-height: 1.5rem;
+}
+
+.intro {
   background: #23424a;
+  color: white;
 }
 
 .container {
   margin: 0 auto;
   max-width: 750px;
-  color: white;
   padding: 50px 2rem;
 }
 
 .intro-content {
   width: 50%;
-}
-
-.more-content {
-  padding: 0 2rem;
-  max-width: 750px;
-  margin: 0 auto;
 }
