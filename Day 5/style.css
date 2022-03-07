@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+header {
+  background: #23424a;
+  padding: 9rem 7rem;
+}
+
+h1,
+p {
+  color: white;
+}
+
+p {
+  line-height: 150%;
+  margin: 2.5rem 0;
+}
+
+.container {
+  width: 50%;
+}
+
+button {
+  border: none;
+  background-color: #38cfd9;
+  color: #072a2d;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
