@@ -7,7 +7,7 @@
 
 header {
   background: #23424a;
-  padding: 9rem 7rem;
+  padding: 3rem 0;
 }
 
 h1,
@@ -17,20 +17,36 @@ p {
 
 p {
   line-height: 150%;
-  margin: 2.5rem 0;
+  margin: 2rem 0;
 }
 
-.container {
+.hero {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid yellow;
+}
+
+.hero__text {
   width: 50%;
+  min-width: 200px;
+  border: 1px solid blue;
 }
 
-button {
+.btn {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
   border: none;
   background-color: #38cfd9;
-  color: #072a2d;
-  font-size: 1.5rem;
+  color: #23424a;
+  font-size: 1rem;
   font-weight: bold;
-  padding: 1rem 3rem;
+  padding: 0.75rem 2rem;
   border-radius: 2rem;
   cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #37c2cc;
 }
